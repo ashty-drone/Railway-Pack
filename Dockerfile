@@ -7,7 +7,7 @@ RUN apt install --no-install-recommends -y curl git libffi-dev libjpeg-dev libwe
 # Cloning-Repo
 RUN git clone https://github.com/curtsy-follicle/tuturu
 
-# Setting up Work Directory 
+# Setting up Work Directory x
 WORKDIR tuturu
 
 # Installing requirements
