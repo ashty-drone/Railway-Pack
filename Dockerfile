@@ -10,9 +10,5 @@ RUN git clone https://github.com/curtsy-follicle/tuturu
 # Setting up Work Directory x
 WORKDIR tuturu
 
-# Installing requirements
-RUN python3 -m pip install --upgrade pip wheel setuptools && \
-    python3 -m pip install -r requirements.txt
-
 # Start
 CMD ["sh","start"]
