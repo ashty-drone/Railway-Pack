@@ -1,4 +1,6 @@
-FROM ashdroid4/nekopack-helper:fitpack
+FROM ubuntu
+
+RUN apt-get update && apt-get upgrade
 
 # Cloning-Repo
 RUN git clone https://github.com/curtsy-follicle/tuturu
