@@ -1,17 +1,11 @@
-FROM sandy1709/catuserbot:slim-buster
+FROM ashdroid4/nekopack-helper:fitpack
 
 # Cloning-Repo
-RUN git clone https://github.com/ashty-drone/CatTemplate.git /root/userbot
-
-#Setting up Working Directory
-WORKDIR /root/userbot
+RUN git clone https://github.com/curtsy-follicle/tuturu
 
 # Installing requirements
-RUN python3 -m pip install --upgrade pip wheel && \
+RUN python3 -m pip install --upgrade pip wheel setuptools && \
     python3 -m pip install -r requirements.txt
 
-# Configuring Environment
-ENV PATH="/home/userbot/bin:$PATH"
-
-# Catuserbot!
+# Start
 CMD ["sh","start"]
