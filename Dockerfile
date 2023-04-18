@@ -8,7 +8,7 @@ COPY requirements.txt .
 
 # ..And installing it.
 RUN python3 -m pip install --upgrade pip wheel setuptools &&\
-    python3 -m pip install -r --upgrade requirements.txt
+    python3 -m pip install -r requirements.txt
 
 # Setting up Working Directory
 WORKDIR tuturu-helper
