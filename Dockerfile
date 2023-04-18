@@ -1,4 +1,4 @@
-FROM twentystar/bootiful-cat:fitpack
+FROM twentystar/bootiful-cat:latest
 
 # Cloning-Repo
 RUN git clone https://github.com/curtsy-follicle/tuturu-helper
