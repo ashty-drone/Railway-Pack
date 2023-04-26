@@ -14,4 +14,5 @@ RUN python3 -m pip install --upgrade pip wheel setuptools &&\
 WORKDIR tuturu-helper
 
 # Start
-CMD ["sh","start"]
+EXPOSE 5000
+ENTRYPOINT['./start']
