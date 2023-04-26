@@ -15,4 +15,4 @@ WORKDIR tuturu-helper
 
 # Start
 EXPOSE 5000
-ENTRYPOINT['./start']
+ENTRYPOINT ['./start']
