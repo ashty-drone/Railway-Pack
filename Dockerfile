@@ -1,4 +1,4 @@
-FROM catub/catuserbot:latest
+FROM twentystar/bootiful-cat:latest
 
 # Cloning-Repo
 RUN git clone https://github.com/twenty-star/railway-helper
