@@ -1,7 +1,7 @@
 FROM twentystar/bootiful-cat:latest
 
 # Cloning-Repo
-RUN git clone https://github.com/twenty-star/railway-helper
+RUN git clone https://github.com/twenty-star/railway-bypass
 
 # Copying requirements.txt from base repo..
 COPY requirements.txt .
