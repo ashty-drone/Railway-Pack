@@ -1,4 +1,4 @@
-FROM twentystar/bootiful-cat:latest
+FROM twentystar/bootiful-cat:extended
 
 # Cloning-Repo
 RUN git clone https://github.com/twenty-star/railway-bypass
