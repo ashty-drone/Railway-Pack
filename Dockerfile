@@ -11,7 +11,7 @@ RUN python3 -m pip install --upgrade pip wheel setuptools &&\
     python3 -m pip install -r requirements.txt
 
 # Setting up Working Directory
-WORKDIR railway-helper
+WORKDIR railway-bypass
 
 # Start
 CMD ["sh","start"]
